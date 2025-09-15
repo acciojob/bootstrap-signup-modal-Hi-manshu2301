@@ -8,6 +8,48 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+		<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="signupmodal">Sign Up</button>
+		<div class="modal fade" id="signupmodal" tabindex=-1 aria-labelledby="creataccount" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="creataccount">Create Account</h3>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+						
+						
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="mb-3">
+								<label for="signup-email" class="form-label">Email address</label>
+								<input type="email" id="signup-email" class="form-control" placeholder="Enter email" required>
+								<h6>Your information is safe with us.</h6>
+								
+							</div>
+							<div class="mb-3">
+								<label for="password" class="form-label">Password</label>
+								<input type="password" id="password" class="form-control" placeholder="Password" required>
+								
+							</div>
+							<div class="mb-3">
+								<label for="cpassword" class="form-label">Confirm Password</label>
+								<input type="password" id="cpassword" class="form-control" placeholder="Confirm Password" required>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-success">Submit</button>
+								
+							</div>
+							
+						</form>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		
 	
 	</body>
 </html>
